@@ -27,9 +27,9 @@ It allows users to shorten long URLs, store them persistently, and retrieve the 
 ## 📂 Project Structure
 ```
 .
-├── main.py        # Application code
-├── urls.json      # Stored URL data (auto-generated)
-└── README.md      # Project documentation
+├── url_short.py        # Application code
+├── urls.json           # Stored URL data (auto-generated)
+└── README.md           # Project documentation
 ```
 
 ---
@@ -44,7 +44,7 @@ cd tiny-url-cli
 
 ### 2️⃣ Run the program
 ```bash
-python main.py
+python url_short.py
 ```
 
 ---
@@ -63,8 +63,8 @@ python main.py
 - A unique slug is generated and saved in `urls.json`
 
 ### Retrieve URL
-- Enter the previously generated slug
-- The original URL is displayed
+- Enter the previously generated slug, which you can find from previously generated file `urls.json`
+- The original URL is displayed and you can open that url directly from terminal
 
 ---
 
@@ -84,14 +84,23 @@ Even after closing and reopening the program, previously generated slugs remain 
 
 ---
 
-## ✅ Assignment Compliance
-✔ CLI-based application  
-✔ URL shortening and retrieval  
-✔ Input validation  
-✔ Persistent storage  
-✔ Uses UUID and hashing  
+## Sample Execution (CLI Output)
+
+Below is an example of how the URL Shortener CLI application works during runtime:
+```bash
+PS C:\Users\Hp\Downloads\url_shortner> python url_short.py
+
+1. Shorten URL
+2. Retrieve URL
+3. Exit
+Choose option: 2
+Enter slug: cb0a96
+Original URL: https://chatgpt.com/c/6956aaf6-29d4-8322-8f52-13c1f44a1104
+
+1. Shorten URL
+2. Retrieve URL
+3. Exit
+Choose option:
+```
 
 ---
-
-## 📄 License
-This project is created for educational purposes.
