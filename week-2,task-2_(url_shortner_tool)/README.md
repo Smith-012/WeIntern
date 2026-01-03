@@ -38,8 +38,7 @@ It allows users to shorten long URLs, store them persistently, and retrieve the 
 
 ### 1️⃣ Clone or download the project
 ```bash
-git clone <repository-url>
-cd tiny-url-cli
+git clone https://github.com/Smith-012/WeIntern/tree/main/week-2%2Ctask-2_(url_shortner_tool)
 ```
 
 ### 2️⃣ Run the program
