@@ -4,8 +4,7 @@ This project is a **Python-based Employee Management System** using
 SQLite, featuring:
 
 -   CRUD operations (Create, Read, Update, Delete)
--   Live input validation (only alphabets for names/departments, only
-    numbers for age/ID)
+-   Live input validation
 -   Cross‑platform key capture for restricted typing
 -   Auto‑database migration
 -   Colorful interactive terminal UI
@@ -13,27 +12,15 @@ SQLite, featuring:
 -   Stored date (YYYY‑MM‑DD)
 
 ------------------------------------------------------------------------
-
 ## 📌 How It Works
 
-### ✔ Main Features:
-
-  -----------------------------------------------------------------------
-  Feature                     Description
-  --------------------------- -------------------------------------------
-  Add Employee                Stores new employee with name, age,
-                              department, and auto-date.
-
-  View Employees              Displays all records in formatted table.
-
-  Update Employee             Edits existing employee & shows updated
-                              record.
-
-  Delete Employee             Deletes an employee by ID.
-
-  Clear Screen                Clears terminal window.
-  -----------------------------------------------------------------------
-
+| Operations           | Description |
+|-------------------|-------------|
+| **Add Employee**  | Stores a new employee with name, age, department, and auto-date. |
+| **View Employees** | Displays all records in a formatted table. |
+| **Update Employee** | Edits an existing employee and shows the updated record. |
+| **Delete Employee** | Deletes an employee by ID. |
+| **Clear Screen** | Clears the terminal window. |
 ------------------------------------------------------------------------
 
 ## 🧠 Main Brain Logic
@@ -112,17 +99,17 @@ Save your `.py` file (example: `employee_manager.py`).
 
 ### ✅ **Add Employee Example**
 
-    Name: John Doe
-    Age: 29
-    Department: HR
+    Name: Raju
+    Age: 25
+    Department: IT
 
     ✔ Employee added successfully!
     Stored Record:
-    ID: 12
-    Name: John Doe
-    Age: 29
-    Department: HR
-    Stored At: 2026-01-12
+    ID: 1
+    Name: Raju
+    Age: 25
+    Department: IT
+    Stored At: 2026-01-06
 
 ------------------------------------------------------------------------
 
@@ -131,25 +118,24 @@ Save your `.py` file (example: `employee_manager.py`).
     ---- Employee List ----
     ID    NAME            AGE   DEPT            DATE STORED
     --------------------------------------------------------
-    1     John Doe        29    HR              2026-01-12
-    2     Alice Smith     25    Sales           2026-01-12
+    1     Raju            25    IT              2026-01-06
 
 ------------------------------------------------------------------------
 
 ### ✏️ **Update Example**
 
     Employee ID: 1
-    New Name: John X Doe
-    New Age: 30
-    New Department: HR
+    New Name: Raju
+    New Age: 27
+    New Department: IT
 
     ✔ Employee updated!
     Updated Record:
     ID: 1
-    Name: John X Doe
-    Age: 30
-    Department: HR
-    Stored At: 2026-01-12
+    Name: Raju
+    Age: 27
+    Department: IT
+    Stored At: 2026-01-06
 
 ------------------------------------------------------------------------
 
@@ -165,16 +151,3 @@ Save your `.py` file (example: `employee_manager.py`).
 Just clears the terminal screen.
 
 ------------------------------------------------------------------------
-
-## 📄 File Maintainer
-
--   Author: Your Name\
--   Language: Python\
--   Database: SQLite\
--   Terminal UI: Colorama
-
-------------------------------------------------------------------------
-
-## ✔️ License
-
-This project is free to use, modify, and distribute.
